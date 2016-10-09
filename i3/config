@@ -60,10 +60,10 @@ bindsym $mod+space focus mode_toggle
 # focus the parent container
 bindsym $mod+a focus parent
 
-set $workspace1 "1 "
-set $workspace2 "2 "
+set $workspace1 "1 "
+set $workspace2 "2 "
 set $workspace3 "3 "
-set $workspace4 "4 "
+set $workspace4 "4 "
 set $workspace5 "5 "
 set $workspace6 "6 "
 set $workspace7 "7 "
@@ -167,7 +167,7 @@ client.urgent           $urgent-bg-color    $urgent-bg-color   $text-color      
 
 # bar
 bar {
-#  	status_command i3blocks -c /home/parth/.config/i3/i3blocks.conf
+    font pango:San Francisco Display, Awesome 10
     status_command i3blocks
 	colors {
 		background $bg-color
